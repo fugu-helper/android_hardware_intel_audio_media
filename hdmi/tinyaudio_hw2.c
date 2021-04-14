@@ -46,7 +46,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#define LOG_TAG "tiny_hdmi_audio_hw"
+#define LOG_TAG "tiny_hdmi_audio_hw2"
 //#define LOG_NDEBUG 0
 
 #include <errno.h>
@@ -69,7 +69,7 @@
 #define UNUSED_PARAMETER(x)        (void)(x)
 
 #define DEFAULT_CARD               0
-#define DEFAULT_DEVICE             3
+#define DEFAULT_DEVICE             7
 
 /*this is used to avoid starvation*/
 #define LATENCY_TO_BUFFER_SIZE_RATIO 2
